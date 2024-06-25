@@ -1,7 +1,8 @@
 
 # C Program
 
-สร้างขึ้นเพื่อเก็บสะสมผลงานหรือ CODE ที่เกี่ยวกับภาษา C
+Created to collect works or CODEs about C
+(Watcharapong Namsaeng)
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
