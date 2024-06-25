@@ -1,6 +1,7 @@
 /*
 C PROGRAM (BASIC)
 INTERFACE : PROGRAM ATM
+DATE : 25/06/2567
 */
 
 #include <stdio.h>
