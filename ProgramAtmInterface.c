@@ -6,7 +6,7 @@ DATE : 25/06/2567
 
 #include <stdio.h>
 
-void main(){
+int main(){
     printf("\
     *****************************\n\
     \tProgram ATM\n\
