@@ -18,5 +18,5 @@ int main(){
     5> Exit the program\n\
     *****************************\n\
     Please select menu [1-5]:");
-    return;
+    return 1;
 }
