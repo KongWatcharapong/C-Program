@@ -20,5 +20,5 @@ int main() {
 
     float calculate = input[0] / ((input[1] / 100) * (input[1] / 100));
     printf("BMI : %.2f\n", calculate);
-    return;
+    return 1;
 }
