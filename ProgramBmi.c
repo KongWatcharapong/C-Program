@@ -1,7 +1,7 @@
 /*
 C PROGRAM (BASIC)
 INTERFACE : BMI
-DATE : 02/07/2567
+DATE : 01/07/2567
 */
 
 #include <stdio.h>
@@ -23,15 +23,18 @@ int main() {
     if(calculate <= 18.5) //ผอมเกินไป
     {
         printf("Too thin");
-    } else if(calculate >= 18.6 && calculate <= 24.9) //พอดี
+    } else if(calculate >= 18.6 && calculate <= 22.9) //พอดี
     {
         printf("Normal and appropriate weight");
-    } else if(calculate >= 25.0 && calculate <= 29.9) //อ้วน
+    } else if(calculate >= 23.0 && calculate <= 24.9) //โรคอ้วนระดับ 1
     {
-        printf("Obese");
-    } else // อ้วนเกินไป >= 30
+        printf("Obesity level 1");
+    } else if(calculate >= 25.0 && calculate <= 29.9) //โรคอ้วนระดับ 2
     {
-        printf("Very obese");
+        printf("Obesity level 2");
+    } else //โรคอ้วนระดับ 3 >= 30
+    {
+        printf("Obesity level 3");
     }
     return 1;
 }
