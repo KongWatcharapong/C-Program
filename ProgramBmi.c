@@ -1,7 +1,7 @@
 /*
 C PROGRAM (BASIC)
 INTERFACE : BMI
-DATE : 01/07/2567
+DATE : 02/07/2567
 */
 
 #include <stdio.h>
