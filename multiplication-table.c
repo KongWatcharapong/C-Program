@@ -7,11 +7,10 @@ DATE : 08/07/2567
 #include <stdio.h>
 
 int main() {
-    int i = 1, x = 9;
-    while (i <= 12)
+    int x = 9;
+    for (int i; i < 12; i++)
     {
         printf("%d * %d = %d\n", x, i, x*i);
-        i++;
     }
     return 1;
 }
