@@ -5,11 +5,7 @@
 /*
 warning: implicit declaration of function 'system' [-Wimplicit-function-declaration]
 */
-#ifdef __cplusplus__
-  #include <cstdlib>
-#else
-  #include <stdlib.h>
-#endif
+#include <stdlib.h>
 
 int main(){
   float w,h,BMI;
